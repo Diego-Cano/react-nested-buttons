@@ -1,0 +1,44 @@
+/* NestedButtons.css */
+.nested-buttons-container {
+    padding: 20px;
+    background-color: #f5f5dc; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .outer-button {
+    background-color: #f0e68c; 
+    color: #8b4513;
+    border: none;
+    width: 400px; 
+    height: 200px; 
+    cursor: pointer;
+    position: relative;
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    padding-left: 20px; 
+  }
+  
+  .inner-button {
+    background-color: #dd6f21; 
+    color: #ffffff;
+    border: none;
+    width: 100px; 
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px; 
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  .outer-button:focus,
+  .inner-button:focus {
+    outline: none;
+  }
+  
